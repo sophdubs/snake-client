@@ -27,6 +27,10 @@ const handleUserInput = function(key) {
     connection.write('Say: send fudge!');
   } else if (key === 'c') {
     connection.write('Say: send cookies!');
+  } else if (key === 'g') {
+    connection.write('Say: JE SUIS LE FRENCH');
+  }else if (key === 'h') {
+    connection.write('Say: HON HON HON!');
   };
 };
 
